@@ -7,11 +7,11 @@ For Project 3, we were asked to create an interactive web application with at le
 Many of us have on occasion been tasked with the chore of selecting a bottle of wine for a house-warming gift or holiday party and found ourselves overwhelmed by the sheer volume of options on the shelf! So we set out to build a wine selection dashboard to make it easier for the occasional wine drinker to find his/her next great wine or **"Grape Choice"**.
 
 ## Data Description
-We used a wine review dataset which was scraped from WineEnthusiast in 2017, available on Kaggle [here](https://www.kaggle.com/datasets/zynicide/wine-reviews). The original dataset contained nearly 130,000 records of wine and included the following columns: the label title, points, price, varietal, winery, country, province, region, designation, reviewers' name and twitter handle and the reviewers' description of the wine. We cleaned the data in Pandas/Python as follows: removed null values, dropped wines priced over $200 and condensed the dataset to the last 50 years. The final, cleaned dataset contained over 99,000 records. The final dataset was uploaded to a sqlite3 database.
+We used a wine review dataset which was scraped from WineEnthusiast in 2017, available on Kaggle [here](https://www.kaggle.com/datasets/zynicide/wine-reviews). The original dataset contained nearly 130,000 records of wine and included the following columns: the label title, points, price, varietal, winery, country, province, region, designation, reviewers' name and twitter handle and the reviewers' description of the wine. We cleaned the data in Pandas/Python as follows: removed null values, dropped wines priced over $200 and condensed the dataset to the last 50 years. The final, cleaned dataset contained over 99,000 records. The final dataset was uploaded to a SQLite database.
 
 ## Web Application Overview
 
-- We deployed Flask as the web server to host the page routes and import the data housed in the sqlite3 database through sqlAlchemy.
+- We deployed Flask as the web server to host the page routes and import the data housed in the SQLite database through SQLAlchemy.
 - The web application navigation contains links to 3 webpages (Project Overview, Dashboard and Our Team) and a link to this GitHub repository. 
 - To see the live version of the website application, download the source code and launch the Flask app.py file.
 
@@ -44,8 +44,8 @@ Our team page contains links to each members' GitHub repository, LinkedIn profil
 ## Technology
 
 - Data Cleansing:  **Pandas** and **Python**
-- Data Warehousing:  **sqlit3** was used to house the dataset
-- Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the sqlite3 database via **sqlAlchemy**, JavaScript and HTML files
+- Data Warehousing:  **SQLite** was used to house the dataset
+- Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the SQLite database via **SQLAlchemy**, JavaScript and HTML files
 - Backend Data Manipulation:  **JavaScript, D3, Plotly** and **Highcharts** for interactive data visualizations
 - Frontend:  **HTML5, CSS** and **Bootstrapping** for content and styling
 
