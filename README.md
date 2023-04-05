@@ -53,7 +53,7 @@ Our team page contains links to each members' GitHub repository, LinkedIn profil
 
 ## Future Considerations
 In the future, we could expand upon this web application by:
-- Adding additional user selection dropdowns or sliders for price range, wine points and/or province & country
+- Adding additional user selection multi-level dropdowns or sliders for price range, wine points and/or province & country
 - Applying machine learning to predict wine rating based on variables in the data set
 - Deploying a recommendation engine based on user inputs or a similarly rated wine selection
 - Securing more recent data
