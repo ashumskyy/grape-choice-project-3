@@ -4,7 +4,7 @@ For Project 3, we were asked to create an interactive web application with at le
 ![Picture1](https://user-images.githubusercontent.com/44728723/229258983-59c3e312-2487-46fe-abb8-4cbb471055f6.jpg)
 
 ## Motivation
-Many of us have on occasion been tasked with the chore of selecting a bottle of wine for a house-warming gift or holiday party and found ourselves overwhelmed by the sheer volume of options on the shelf! So we set out to build a wine selection dashboard to make it easier for the occasional wine drinker to find his/her next great wine or **"Grape Choice"**.
+Many of us have on occasion been tasked with selecting a bottle of wine for a house-warming gift or holiday party and found ourselves overwhelmed by the sheer volume of options on the shelf! So we set out to build a wine selection dashboard to make it easier for the occasional wine drinker to find his/her next great wine or **"Grape Choice"**.
 
 ## Data Description
 We used a wine review dataset which was scraped from WineEnthusiast in 2017, available on Kaggle [here](https://www.kaggle.com/datasets/zynicide/wine-reviews). The original dataset contained nearly 130,000 records of wine and included the following columns: the label title, points, price, varietal, winery, country, province, region, designation, reviewers' name and twitter handle and the reviewers' description of the wine. We cleaned the data in Pandas/Python as follows: removed null values, dropped wines priced over $200 and condensed the dataset to the last 50 years. The final, cleaned dataset contained over 99,000 records. The final dataset was uploaded to a SQLite database.
