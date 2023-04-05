@@ -49,8 +49,7 @@ Our team page contains links to each members' GitHub repository, LinkedIn profil
 - Backend Data Manipulation:  **JavaScript, D3, Plotly** and **Highcharts** for interactive data visualizations
 - Frontend:  **HTML5, CSS** and **Bootstrapping** for content and styling
 
-<img width="723" alt="Screen Shot 2023-04-04 at 10 42 51 AM" src="https://user-images.githubusercontent.com/44728723/229829264-60a3383b-ddd5-457d-9a0d-f483211887d0.png">
-
+<img width="898" alt="Screen Shot 2023-04-05 at 6 36 06 PM" src="https://user-images.githubusercontent.com/44728723/230227006-dfef3794-2f6a-4901-86ed-eed0c3b1ecba.png">
 
 ## Future Considerations
 In the future, we could expand upon this web application by:
