@@ -37,7 +37,7 @@ ________________________________________________________________________________
   
 <p><b>Our Team Page:</b></p>
 
-Our team page contains links to each members' GitHub repository, LinkedIn profile and Twitter account that displays when the user hovers over an avatar.
+Our team page contains links to each member's GitHub repository, LinkedIn profile and Twitter account that displays when the user hovers over an avatar.
 <p align="center">
 <img width="619" alt="Screen Shot 2023-04-04 at 9 00 37 AM" src="https://user-images.githubusercontent.com/44728723/229799869-21557b5d-0cd9-49eb-9bc0-091a7d307510.png">
 
