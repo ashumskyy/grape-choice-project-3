@@ -31,7 +31,7 @@ ________________________________________________________________________________
 - On the right side of the dashboard is a stream graph from Highcharts which depicts the number of wines by country by wine points. This chart also has a zoom feature.
 - All three charts are interactive and contain hover features showing additional data details.
 <p align="center">
-<img width="619" alt="Screen Shot 2023-04-04 at 9 04 55 AM" src="https://user-images.githubusercontent.com/44728723/229800736-c49bd85a-854a-40e1-8075-420dd6c4ecd5.png">
+<img width="622" alt="Screen Shot 2023-04-06 at 2 39 42 PM" src="https://user-images.githubusercontent.com/44728723/230466689-870a78d5-7ce3-421c-909e-b451b873d5ce.png">
 
   __________________________________________________________________________________
   
