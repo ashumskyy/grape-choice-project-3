@@ -1,5 +1,6 @@
 
 
+
 // Fetch the JSON data and console log it
 //result = json.dumps(alpha)
 //let wine_data = 
