@@ -13,7 +13,7 @@ We used a wine review dataset which was scraped from WineEnthusiast in 2017, ava
 
 - We deployed Flask as the web server to host the page routes and import the data housed in the SQLite database through SQLAlchemy.
 - The web application navigation contains links to 3 webpages (Project Overview, Dashboard and Our Team) and a link to this GitHub repository. 
-- To see the live version of the website application, download the source code and launch the Flask app.py file.
+- To see the live version of the website application, download the source code and launch the Flask app.py file.  The web app is also hosted on render.com through the following link:  [grape_choice](https://grape-choice.onrender.com/)
 
 
 <p><b>Project Overview:</b></p>
