@@ -48,7 +48,7 @@ Our team page contains links to each member's GitHub repository, LinkedIn profil
 - Frontend:  **HTML5, CSS** and **Bootstrapping** for content and styling
 - Backend Data Manipulation:  **JavaScript, D3, Plotly** and **Highcharts** for interactive data visualizations
 - Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the SQLite database via **SQLAlchemy**, JavaScript and HTML files
-- Web App Hosting:  **Render.com** is hosting the web app through a connectionn to **GitHubb**
+- Web App Hosting:  The web app is hosted on **Render.com** through a connectionn to **GitHub**
 
 <img width="812" alt="Screen Shot 2023-04-06 at 12 02 41 PM" src="https://user-images.githubusercontent.com/44728723/230434752-57f80d51-2f3a-4cc6-bc8a-f66187e146f6.png">
 
