@@ -45,9 +45,10 @@ Our team page contains links to each member's GitHub repository, LinkedIn profil
 
 - Data Cleansing:  **Pandas** and **Python**
 - Data Warehousing:  **SQLite** was used to house the dataset
-- Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the SQLite database via **SQLAlchemy**, JavaScript and HTML files
-- Backend Data Manipulation:  **JavaScript, D3, Plotly** and **Highcharts** for interactive data visualizations
 - Frontend:  **HTML5, CSS** and **Bootstrapping** for content and styling
+- Backend Data Manipulation:  **JavaScript, D3, Plotly** and **Highcharts** for interactive data visualizations
+- Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the SQLite database via **SQLAlchemy**, JavaScript and HTML files
+- Web App Hosting:  **Render.com** is hosting the web app through a connectionn to **GitHubb**
 
 <img width="898" alt="Screen Shot 2023-04-05 at 6 36 06 PM" src="https://user-images.githubusercontent.com/44728723/230227006-dfef3794-2f6a-4901-86ed-eed0c3b1ecba.png">
 
