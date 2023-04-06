@@ -50,7 +50,7 @@ Our team page contains links to each member's GitHub repository, LinkedIn profil
 - Web Enablement:  **Flask** was used as the skinny web server and was also the connection point between the SQLite database via **SQLAlchemy**, JavaScript and HTML files
 - Web App Hosting:  **Render.com** is hosting the web app through a connectionn to **GitHubb**
 
-<img width="898" alt="Screen Shot 2023-04-05 at 6 36 06 PM" src="https://user-images.githubusercontent.com/44728723/230227006-dfef3794-2f6a-4901-86ed-eed0c3b1ecba.png">
+<img width="812" alt="Screen Shot 2023-04-06 at 12 02 41 PM" src="https://user-images.githubusercontent.com/44728723/230434752-57f80d51-2f3a-4cc6-bc8a-f66187e146f6.png">
 
 ## Future Considerations
 In the future, we could expand upon this web application by:
