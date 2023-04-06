@@ -95,12 +95,15 @@ function buildTopTenBar(firstSample) {
                 marker: {
                     color: ['#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85', '#7C3D85']
                 },
-                text: top10.map(d => `Title: ${d.title}<br>` +
-                    `Points: ${d.points}  ` +
-                    `Price: ${d.price}  ` +
-                    `Province: ${d.province}  ` +
-                    `Country: ${d.country}`
-                )
+                text: revTop10.map(d => d.points), // Set the value for points to be displayed inside the bars
+                textposition: 'inside', // Set textposition to inside to display text inside the bars
+                hovertemplate: '<b>%{text}</b><br>' + // Set the hover text to include title, points, price, province, and country
+                    'Title: %{customdata[0]}<br>' +
+                    'Points: %{x}<br>' +
+                    'Price: %{customdata[1]}<br>' +
+                    'Province: %{customdata[2]}<br>' +
+                    'Country: %{customdata[3]}',
+                customdata: revTop10.map(d => [d.title, d.price, d.province, d.country]) // Set customdata to include the necessary information for the hover text
             }];
 
             var chartLayout = {
