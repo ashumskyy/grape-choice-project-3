@@ -1,5 +1,5 @@
 import csv
-from pymongo import MongoClient
+# from pymongo import MongoClient
 import os
 import sys
 import subprocess
