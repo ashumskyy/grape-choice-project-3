@@ -1,6 +1,9 @@
+
+
 // Fetch the JSON data and console log it
-let wine_data = "../data/new_final_wine_data.json";
-d3.json(wine_data).then(function(wine_results) {
+//result = json.dumps(alpha)
+//let wine_data = 
+d3.json('/api/chart_alpha').then(function(wine_results) {
     console.log(wine_results)
 });
 
@@ -24,7 +27,7 @@ d3.json(typeData).then(function(typeResults) {
 
 function init() {
     let dropdownType = d3.select("#dropdownType");
-    d3.json(typeData).then((newTypeData) => {
+    // d3.json(typeData).then((newTypeData) => {
         var wineTypes = ["White", "Red", "Sparkling", "Rosé"];
         wineTypes.forEach((typeChoice) => {
             dropdownType.append("option").text(typeChoice).property("value", typeChoice);
@@ -33,7 +36,7 @@ function init() {
         var firstSample = wineTypes[0];
         buildTopTenBar(firstSample);
         buildTopFiftyBar(firstSample);
-    })
+    // })
 };
 
 init();
@@ -54,7 +57,7 @@ function optionChanged(newSelection) {
 
 function buildTopTenBar(firstSample) {
     // Fetch the JSON data
-    d3.json(wine_data).then(function(newData) {
+    d3.json('/api/chart_alpha').then(function(newData) {
         // Define the dropdown element and options
         const dropdown = document.getElementById('dropdownType');
         const options = ['White', 'Red', 'Sparkling', 'Rosé'];
@@ -285,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // // //---------------------------------------------------------//
 
 function buildTopFiftyBar(type) {
-    d3.csv("../data/new_final_wine_data.csv").then(function(data) {
+    d3.json('/api/chart_alpha').then(function(data) {
         console.log(data)
             // Filter the data to only include red wines and sort by value per point descending
         var filteredData = data.filter(function(d) { return d.type === type; })
