@@ -26,8 +26,8 @@ ________________________________________________________________________________
 
 - The Dashboard contains a dropdown menu for the user to select the type of wine they are interested in:  White, Red, Rosé or Sparkling.
 - Once selected, the web application will display a horizontal bar chart of the Top 10 Wines in the category based on points.
-- At the bottom of the page is a chart showing the Top 50 Wines ranked by Price per Point (lower is better) for the category selected in the dropdown menu.
-- Both the Top 10 by Points and the Top 50 by Price per Point bar charts update when the dropdown selection changes.
+- At the bottom of the page is a chart showing the Top 25 and Bottom 25 Wines ranked by Price per Point (lower is better) for the category selected in the dropdown menu.
+- Both the Top 10 by Points and the Top/Bottom Price per Point bar charts update when the dropdown selection changes.
 - On the right side of the dashboard is a stream graph from Highcharts which depicts the number of wines by country by wine points. This chart also has a zoom feature.
 - All three charts are interactive and contain hover features showing additional data details.
 <p align="center">
