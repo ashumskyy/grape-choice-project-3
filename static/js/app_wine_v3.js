@@ -119,7 +119,7 @@ function buildTopTenBar(firstSample) {
                 // title: `Top Rated ${selectedType}: Wines`,
                 title: `Top Rated <span style="text-transform: uppercase; font-weight: bold">${selectedType}</span> Wines`,
                 xaxis: {
-                    title: 'Price',
+                    title: 'Points',
                     range: [0, Math.max(...top10.map(d => d.points)) * 1.1]
                 },
                 tickfont: { size: 7, family: 'Arial' },
